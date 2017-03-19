@@ -1,0 +1,661 @@
+Script started on Sun Mar 19 22:44:12 2017
+[?1034hbash-3.2$ whoamil[K;pwd pwd
+tommymok
+/Users/tommymok
+bash-3.2$ git config =[K-0[Kl
+core.trustctime=false
+credential.helper=osxkeychain
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+core.precomposeunicode=true
+remote.origin.url=https://github.com/tommymok/lab1.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+bash-3.2$ git clone hg[Kttp:/[K[Ks://githi[Kub.,[Kcom/tommymok/b[Klab1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/tommymok/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+bash-3.2$ ls
+Applications	Documents	Library		Pictures	lab1
+Blizzard	Downloads	Movies		Public		lab1.script
+Desktop		Dropbox		Music		README.md
+bash-3.2$ mv[K[Kfinder
+bash: finder: command not found
+bash-3.2$ finder[4Plsgit clone https://github.com/tommymok/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+bash-3.2$ ,[Kls
+Applications	Documents	Library		Pictures	lab1.script
+Blizzard	Downloads	Movies		Public
+Desktop		Dropbox		Music		README.md
+bash-3.2$ lsgit clone https://github.com/tommymok/lab1.git[C[C[C[C[C[C[C[C[C[Cfinder[Kgit clone https://github.com/tommymok/lab1.git
+Cloning into 'lab1'...
+remote: Counting objects: 15, done.[K
+remote: Compressing objects:  20% (1/5)   [Kremote: Compressing objects:  40% (2/5)   [Kremote: Compressing objects:  60% (3/5)   [Kremote: Compressing objects:  80% (4/5)   [Kremote: Compressing objects: 100% (5/5)   [Kremote: Compressing objects: 100% (5/5), done.[K
+remote: Total 15 (delta 0), reused 15 (delta 0), pack-reused 0[K
+Unpacking objects:   6% (1/15)   Unpacking objects:  13% (2/15)   Unpacking objects:  20% (3/15)   Unpacking objects:  26% (4/15)   Unpacking objects:  33% (5/15)   Unpacking objects:  40% (6/15)   Unpacking objects:  46% (7/15)   Unpacking objects:  53% (8/15)   Unpacking objects:  60% (9/15)   Unpacking objects:  66% (10/15)   Unpacking objects:  73% (11/15)   Unpacking objects:  80% (12/15)   Unpacking objects:  86% (13/15)   Unpacking objects:  93% (14/15)   Unpacking objects: 100% (15/15)   Unpacking objects: 100% (15/15), done.
+Checking connectivity... done.
+bash-3.2$ cat lab1.script
+Script started on Sun Mar 19 22:44:12 2017
+[?1034hbash-3.2$ whoamil[K;pwd pwd
+tommymok
+/Users/tommymok
+bash-3.2$ git config =[K-0[Kl
+core.trustctime=false
+credential.helper=osxkeychain
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+core.precomposeunicode=true
+remote.origin.url=https://github.com/tommymok/lab1.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+bash-3.2$ git clone hg[Kttp:/[K[Ks://githi[Kub.,[Kcom/tommymok/b[Klab1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/tommymok/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+bash-3.2$ ls
+Applications	Documents	Library		Pictures	lab1
+Blizzard	Downloads	Movies		Public		lab1.script
+Desktop		Dropbox		Music		README.md
+bash-3.2$ mv[K[Kfinder
+bash: finder: command not found
+bash-3.2$ finder[4Plsgit clone https://github.com/tommymok/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+bash-3.2$ ,[Kls
+Applications	Documents	Library		Pictures	lab1.script
+Blizzard	Downloads	Movies		Public
+Desktop		Dropbox		Music		README.md
+bash-3.2$ bash-3.2$ mv lab1.script lab1
+bash-3.2$ vi lab1.s[Kcpp
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1HE325: ATTENTION
+Found a swap file by the name ".lab1.cpp.swp"
+[10Cowned by: tommymok   dated: Fri Mar 10 15:43:43 2017
+[9Cfile name: ~tommymok/lab1.cpp
+[10Cmodified: YES
+[9Cuser name: tommymok   host name: tommyde-MacBook-Pro.local
+[8Cprocess ID: 2147
+While opening file "lab1.cpp"
+
+(1) Another program may be editing the same file.
+    If this is the case, be careful not to end up with two
+    different instances of the same file when making changes.
+    Quit, or continue with caution.
+
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r lab1.cpp"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".lab1.cpp.swp"
+    to avoid this message.
+
+Swap file ".lab1.cpp.swp" already exists!
+[O]pen Read-Only, (E)dit anyway, (R)ecover, (D)elete it, (Q)uit, (A)bort:[?12l[?25h[24;1H[K[?25l[24;1H"lab1.cpp" [New File][>c[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?12l[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?12l[?25h[?25l$[?12l[?25h[?25l[1;1H[K[1;1H[?12l[?25h[?25l#[?12l[?25h[?25l#i[?12l[?25h[?25lin[?12l[?25h[?25lnc[?12l[?25h[?25lcl[?12l[?25h[?25llu[?12l[?25h[?25lud[?12l[?25h[?25lde[?12l[?25h[?25l [?12l[?25h[?25l <[?12l[?25h[?25l<i[?12l[?25h[?25lio[?12l[?25h[?25los[?12l[?25h[?25lst[?12l[?25h[?25ltr[?12l[?25h[?25lre[?12l[?25h[?25lea[?12l[?25h[?25lam[?12l[?25h[?25lm>[?12l[?25h[?25l[2;1H[K[2;1H[?12l[?25h[?25l[3;1H[K[3;1H[?12l[?25h[?25lu[?12l[?25h[?25lus[?12l[?25h[?25lsi[?12l[?25h[?25lin[?12l[?25h[?25lng[?12l[?25h[?25l [?12l[?25h[?25l n[?12l[?25h[?25lna[?12l[?25h[?25lam[?12l[?25h[?25lme[?12l[?25h[?25les[?12l[?25h[?25lsp[?12l[?25h[?25lpa[?12l[?25h[?25lac[?12l[?25h[?25lce[?12l[?25h[?25l [?12l[?25h[?25l s[?12l[?25h[?25lst[?12l[?25h[?25ltd[?12l[?25h[?25ld;[?12l[?25h[?25l[4;1H[K[4;1H[?12l[?25h[?25l[5;1H[K[5;1H[?12l[?25h[?25li[?12l[?25h[?25lin[?12l[?25h[?25lnt[?12l[?25h[?25l [?12l[?25h[?25l m[?12l[?25h[?25lmn[?12l[?25h[?25l[5;6H[K[5;6H[?12l[?25h[?25lml[?12l[?25h[?25ll;[?12l[?25h[?25l[5;7H[K[5;7H[?12l[?25h[?25l[5;6H[K[5;6H[?12l[?25h[?25l[5;5H[K[5;5H[?12l[?25h[?25l m[?12l[?25h[?25lm;[?12l[?25h[?25l[5;6H[K[5;6H[?12l[?25h[?25l[5;5H[K[5;5H[?12l[?25h[?25l n[?12l[?25h[?25ln;[?12l[?25h[?25l[6;1H[K[6;1H[?12l[?25h[?25li[?12l[?25h[?25lin[?12l[?25h[?25lnt[?12l[?25h[?25l [?12l[?25h[?25l m[?12l[?25h[?25lma[?12l[?25h[?25lai[?12l[?25h[?25lin[?12l[?25h[?25ln)[?12l[?25h[?25l)([?12l[?25h[?25l[6;10H[K[6;10H[?12l[?25h[?25l[6;9H[K[6;9H[?12l[?25h[?25ln([?12l[?25h[?25l[106m()[?12l[?25h[?25l[m()[7;1H[K[7;1H[?12l[?25h[?25l{[?12l[?25h[?25l{P[?12l[?25h[?25l[7;2H[K[7;2H[?12l[?25h[?25l[8;1H[K[8;1H[?12l[?25h[?25l [?12l[?25h[?25l c[?12l[?25h[?25lco[?12l[?25h[?25l[8;3H[K[8;3H[?12l[?25h[?25lci[?12l[?25h[?25lin[?12l[?25h[?25l [?12l[?25h[?25l >[?12l[?25h[?25l>>[?12l[?25h[?25l [?12l[?25h[?25l n[?12l[?25h[?25ln;[?12l[?25h[?25l[8;10H[K[8;10H[?12l[?25h[?25ln;[?12l[?25h[?25l[9;1H[K[9;1H[?12l[?25h[?25lc[?12l[?25h[?25lco[?12l[?25h[?25lou[?12l[?25h[?25lun[?12l[?25h[?25lnt[?12l[?25h[?25l[9;5H[K[9;5H[?12l[?25h[?25l[9;4H[K[9;4H[?12l[?25h[?25lut[?12l[?25h[?25l [?12l[?25h[?25l M[?12l[?25h[?25l[9;6H[K[9;6H[?12l[?25h[?25l <[?12l[?25h[?25l<<[?12l[?25h[?25l [?12l[?25h[?25l n[?12l[?25h[?25l [?12l[?25h[?25l <[?12l[?25h[?25l<<[?12l[?25h[?25l [?12l[?25h[?25l "[?12l[?25h[?25l [?12l[?25h[?25l "[?12l[?25h[?25l":[?12l[?25h[?25l[9;17H[K[9;17H[?12l[?25h[?25l"L[?12l[?25h[?25lLK[?12l[?25h[?25l[9;18H[K[9;18H[?12l[?25h[?25l[9;17H[K[9;17H[?12l[?25h[?25l";[?12l[?25h[?25l[10;1H[K[10;1H[?12l[?25h[9;1H[?25l cout << n << " "; [?12l[?25h[?25l  cout << n << " ";  [?12l[?25h[8;3H[?25l  cin >> n;  [?12l[?25h
+  
+[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l w[?12l[?25h[?25lwh[?12l[?25h[?25lhi[?12l[?25h[?25lil[?12l[?25h[?25lle[?12l[?25h[?25le([?12l[?25h[?25l(n[?12l[?25h[?25ln![?12l[?25h[?25l!-[?12l[?25h[?25l[10;12H[K[10;12H[?12l[?25h[?25l!=[?12l[?25h[?25l=1[?12l[?25h[?25l[106m([mn!=1[106m)[?12l[?25h[?25l[m(n!=1)[11;1H[K[11;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l {[?12l[?25h[?25l[12;1H[K[12;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l i[?12l[?25h[?25lif[?12l[?25h[?25l [?12l[?25h[?25l ([?12l[?25h[?25l[12;9H[K[12;9H[?12l[?25h[?25l[?12l[?25h[?25lf([?12l[?25h[?25l(n[?12l[?25h[?25ln$[?12l[?25h[?25l[12;10H[K[12;10H[?12l[?25h[?25ln#[?12l[?25h[?25l[12;10H[K[12;10H[?12l[?25h[?25ln%[?12l[?25h[?25l%2[?12l[?25h[?25l [?12l[?25h[?25l =[?12l[?25h[?25l==[?12l[?25h[?25l[12;14H[K[12;14H[?12l[?25h[?25l[12;13H[K[12;13H[?12l[?25h[?25l[?12l[?25h[?25l2=[?12l[?25h[?25l==[?12l[?25h[?25l=0[?12l[?25h[?25l[12;8H[106m([mn%2==0[106m)[?12l[?25h[?25l[m[12;8H(n%2==0)[13;1H[K[13;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l {[?12l[?25h[?25l [?12l[?25h[?25l n[?12l[?25h[?25ln/[?12l[?25h[?25l[13;9H[K[13;9H[?12l[?25h[?25ln-[?12l[?25h[?25l-n[?12l[?25h[?25l[13;10H[K[13;10H[?12l[?25h[?25l[13;9H[K[13;9H[?12l[?25h[?25ln=[?12l[?25h[?25l=n[?12l[?25h[?25ln/[?12l[?25h[?25l/2[?12l[?25h[?25l2;[?12l[?25h[?25l[14;1H[K[14;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l c[?12l[?25h[?25lco[?12l[?25h[?25lou[?12l[?25h[?25lut[?12l[?25h[?25l [?12l[?25h[?25l <[?12l[?25h[?25l<<[?12l[?25h[?25l [?12l[?25h[?25l n[?12l[?25h[?25l [?12l[?25h[?25l <[?12l[?25h[?25l<<[?12l[?25h[?25l [?12l[?25h[?25l "[?12l[?25h[?25l [?12l[?25h[?25l "[?12l[?25h[?25l";[?12l[?25h[?25l;;[?12l[?25h[?25l[14;27H[K[14;27H[?12l[?25h[?25l[15;1H[K[15;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[13;6H[106m{[m[15;5H [106m}[?12l[?25h[?25l[m[13;6H{[15;6H}[16;1H[K[16;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l e[?12l[?25h[?25lel[?12l[?25h[?25lls[?12l[?25h[?25lsa[?12l[?25h[?25l[16;9H[K[16;9H[?12l[?25h[?25lse[?12l[?25h[?25l[17;1H[K[17;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l {[?12l[?25h[?25l [?12l[?25h[?25l n[?12l[?25h[?25ln=[?12l[?25h[?25l=3[?12l[?25h[?25l3-[?12l[?25h[?25l[17;11H[K[17;11H[?12l[?25h[?25l3=[?12l[?25h[?25l[17;11H[K[17;11H[?12l[?25h[?25l3+[?12l[?25h[?25l[17;11H[K[17;11H[?12l[?25h[?25l3*[?12l[?25h[?25l*n[?12l[?25h[24;1H[K[?25l[17;12H[?12l[?25h[?25l[24;1H[1m-- INSERT --[17;23r[m[17;1H[L[1;24r[17;1Hl[?12l[?25h[?25l[17;1H[K[17;1H[?12l[?25h[?25l[16;23r[23;1H
+[1;24r[16;5H else[23;1H[94m~                                                                               [16;10H[?12l[?25h[17;10H[m3*n[24;1H[K[?25l[17;12H[?12l[?25h[?25l[24;1H[1m-- INSERT --[17;23r[m[17;1H[L[1;24r[17;1Hl[?12l[?25h[?25l[17;1H[K[17;1H[?12l[?25h[?25l[16;23r[23;1H
+[1;24r[16;5H else[23;1H[94m~                                                                               [16;10H[?12l[?25h[17;10H[m3*n[?25ln+[?12l[?25h[?25l+1[?12l[?25h[?25l1;[?12l[?25h[?25l[18;1H[K[18;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l c[?12l[?25h[?25lco[?12l[?25h[?25lou[?12l[?25h[?25lut[?12l[?25h[?25l [?12l[?25h[?25l <[?12l[?25h[?25l<<[?12l[?25h[?25l [?12l[?25h[?25l n[?12l[?25h[?25l [?12l[?25h[?25l <[?12l[?25h[?25l<<[?12l[?25h[?25l [?12l[?25h[?25l '[?12l[?25h[?25l'"[?12l[?25h[?25l[18;24H[K[18;24H[?12l[?25h[?25l[18;23H[K[18;23H[?12l[?25h[?25l "[?12l[?25h[?25l [?12l[?25h[?25l "[?12l[?25h[?25l";[?12l[?25h[?25l;l[?12l[?25h[?25l[18;27H[K[18;27H[?12l[?25h[?25l[19;1H[K[19;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l {[?12l[?25h[?25l[19;7H[K[19;7H[?12l[?25h[?25l[?12l[?25h[?25l {[?12l[?25h[?25l[19;6H[K[19;6H[?12l[?25h[?25l[17;6H[106m{[m[19;5H [106m}[?12l[?25h[?25l[m[17;6H{[19;6H}[20;1H[K[20;1H[?12l[?25h[?25l [?12l[?25h[?25l[11;4H[106m{[m[20;1H [106m}[?12l[?25h[?25l[m[11;4H{[20;2H}[21;1H[K[21;1H[?12l[?25h[?25l[7;1H[106m{[21;1H}[?12l[?25h[?25l[m[7;1H{[21;1H}1[?12l[?25h[?25l[7;1H[106m{[21;1H}[m[21;2H[K[21;2H[?12l[?25h[24;1H[K[21;1H[?25l[?12l[?25h[?25l
+
+
+:[?12l[?25hq[?25l[24;2H[K[24;2H[?12l[?25hws[?25l[24;3H[K[24;3H[?12l[?25h[?25l[24;2H[K[24;2H[?12l[?25hw[?25l"lab1.cpp" [New] 21L, 244C written[21;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049lbash-3.2$ g++ lab1.cpp
+bash-3.2$ ls a ou[K[K.[K[K[K
+Applications	Documents	Library		Pictures	a.out
+Blizzard	Downloads	Movies		Public		lab1
+Desktop		Dropbox		Music		README.md	lab1.cpp
+bash-3.2$ g++ -[K=[K-0[Koi[K lab1.cpp lab1[K[K[K[K[K[K[K[K[K lab1.cpp
+ld: can't open output file for writing: lab1, errno=21 for architecture x86_64
+clang: [0;1;31merror: [0mlinker command failed with exit code 1 (use -v to see invocation)[0m
+bash-3.2$ g++ =[K-[K_[K-o[K[K_[K-[K`[K_[K-o[K o[K[Ko [K[K[K[K[K[K[Ka.out
+bash: a.out: command not found
+bash-3.2$ ls a.out
+a.out
+bash-3.2$ ,/[K[K./a.out
+12
+12 6 3 10 5 16 8 4 2 1 bash-3.2$ g++ =o[K[K-io[K[Ko cl[K[Klab1 a.out
+ld: can't link with a main executable file 'a.out' for architecture x86_64
+clang: [0;1;31merror: [0mlinker command failed with exit code 1 (use -v to see invocation)[0m
+bash-3.2$ ,/[K[K./a.oui[Kt
+12
+12 6 3 10 5 16 8 4 2 1 bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ ls
+Applications	Documents	Library		Pictures	a.out
+Blizzard	Downloads	Movies		Public		lab1
+Desktop		Dropbox		Music		README.md	lab1.cpp
+bash-3.2$ mv a.out lab1
+bash-3.2$ ls
+Applications	Documents	Library		Pictures	lab1
+Blizzard	Downloads	Movies		Public		lab1.cpp
+Desktop		Dropbox		Music		README.md
+bash-3.2$ ls lab1
+README.md	a.out		lab1.script
+bash-3.2$ -[Kscript
+Script started, output file is typescript
+[?1034hbash-3.2$ man c[K[K[K[K[Kwhatis script
+[?1h=catch(ntcl)              - Evaluate script and trap exceptional returns
+chat(8)                  - Automated conversational script with a modem
+eval(ntcl)               - Evaluate a Tcl script
+fileevent(ntcl)          - Execute a script when a channel becomes readable or w ritable
+javascript(n)            - Procedures to generate HTML and Java Script structure s
+jrunscript(1)            - command line script shell
+mib2c-update(1)          - script to merge custom code into updated mib2c code
+pod2readme(1)            - script to convert POD to README file
+pythonw(1)               - run python script allowing GUI
+return(ntcl)             - Return from a procedure, or set return code of a scri pt
+script(1)                - make typescript of terminal session
+source(ntcl)             - Evaluate a file or resource as a Tcl script
+thread(n)                - Extension for script access to Tcl threading
+time(ntcl)               - Time the execution of a script
+tnameserv(1)             - Java IDL name server starter script
+traptoemail(1)           - snmptrapd handler script to convert snmp traps into e mails
+tsv(n)                   - Part of the Tcl threading extension allowing script l evel manipulation of data shared between threads
+uplevel(ntcl)            - Execute a script in a different stack frame
+:[K[Kupsshutdown(8)           - UPS emergency low power shutdown script
+while(ntcl)              - Execute script repeatedly as long as a condition is m et
+xml2-config(1)           - script to get information about the installed version  of GNOME-XML
+[7m(END)[27m[K[K[K[?1l>bash-3.2$ man script
+[?1049h[?1h=mdoc warning: .Fx: Unknown FreeBSD version `9.2' (#188)
+
+SCRIPT(1)                 BSD General Commands Manual                SCRIPT(1)
+
+[1mNAME[0m
+     [1mscript[0m -- make typescript of terminal session
+
+[1mSYNOPSIS[0m
+     [1mscript[0m [[1m-adkpqr[0m] [[1m-F[0m [4mpipe[24m] [[1m-t[0m [4mtime[24m] [[4mfile[24m [[4mcommand[24m [4m...[24m]]
+
+[1mDESCRIPTION[0m
+     The [1mscript[0m utility makes a typescript of everything printed on your ter-
+     minal.  It is useful for students who need a hardcopy record of an inter-
+     active session as proof of an assignment, as the typescript file can be
+     printed out later with lpr(1).
+
+     If the argument [4mfile[24m is given, [1mscript[0m saves all dialogue in [4mfile[24m.  If no
+     file name is given, the typescript is saved in the file [4mtypescript[24m.
+
+     If the argument [4mcommand[24m is given, [1mscript[0m will run the specified command
+     with an optional argument vector instead of an interactive shell.
+
+     The following options are available:
+
+:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[K     [1m-a[0m      Append the output to [4mfile[24m or [4mtypescript[24m, retaining the prior con-
+:[K[K [KESCESC[KOO[KBB[K             tents.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-d[0m      When playing back a session with the [1m-p[0m flag, do not sleep
+:[K[K [KESCESC[KOO[KBB[K             between records when playing back a timestamped session.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-F[0m [4mpipe[24m
+:[K[K [KESCESC[KOO[KBB[K             Immediately flush output after each write.  This will allow a
+:[K[K [KESCESC[KOO[KBB[K             user to create a named pipe using mkfifo(1) and another user may
+:[K[K [KESCESC[KOO[KBB[K             watch the live session using a utility like cat(1).
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-k[0m      Log keys sent to the program as well as output.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-p[0m      Play back a session recorded with the [1m-r[0m flag in real time.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-q[0m      Run in quiet mode, omit the start, stop and command status mes-
+:[K[K [KESCESC[KOO[KBB[K             sages.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-r[0m      Record a session with input, output, and timestamping.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-t[0m [4mtime[24m
+:[K[K [KESCESC[KOO[KBB[K             Specify the interval at which the script output file will be
+:[K[K [KESCESC[KOO[KBB[K             flushed to disk, in seconds.  A value of 0 causes [1mscript[0m to flush
+:[K[K [KESCESC[KOO[KBB[K             after every character I/O event.  The default interval is 30 sec-
+:[K[K [KESCESC[KOO[KBB[K             onds.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     The script ends when the forked shell (or command) exits (a [4mcontrol-D[24m to
+:[K[K [KESCESC[KOO[KBB[K     exit the Bourne shell (sh(1)), and [4mexit[24m, [4mlogout[24m or [4mcontrol-D[24m (if
+:[K[K [KESCESC[KOO[KBB[K     [4mignoreeof[24m is not set) for the C-shell, csh(1)).
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     Certain interactive commands, such as vi(1), create garbage in the type-
+:[K[K [KESCESC[KOO[KBB[K     script file.  The [1mscript[0m utility works best with commands that do not
+:[K[K [KESCESC[KOO[KBB[K     manipulate the screen.  The results are meant to emulate a hardcopy ter-
+:[K[K [KESCESC[KOO[KBB[K     minal, not an addressable one.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mENVIRONMENT[0m
+:[K[K [KESCESC[KOO[KBB[K     The following environment variables are utilized by [1mscript[0m:
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     SCRIPT
+:[K[K [KESCESC[KOO[KBB[K            The SCRIPT environment variable is added to the sub-shell.  If
+:[K[K [KESCESC[KOO[KBB[K            SCRIPT already existed in the users environment, its value is
+:[K[K [KESCESC[KOO[KBB[K            overwritten within the sub-shell.  The value of SCRIPT is the name
+:[K[K [KESCESC[KOO[KBB[K            of the [4mtypescript[24m file.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     SHELL  If the variable SHELL exists, the shell forked by [1mscript[0m will be
+:[K[K [KESCESC[KOO[KBB[K            that shell.  If SHELL is not set, the Bourne shell is assumed.
+:[K[K [KESCESC[KOO[KBB[K            (Most shells set this variable automatically).
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m
+:[K[K [KESCESC[KOO[KBB[K     csh(1)
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mHISTORY[0m
+:[K[K [KESCESC[KOO[KBB[K     The [1mscript[0m command appeared in 3.0BSD.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     The [1m-d[0m, [1m-p[0m and [1m-r[0m options first appeared in NetBSD 2.0 and were ported to
+:[K[K [KESCESC[KOO[KBB[K     FreeBSD 9.2.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mBUGS[0m
+:[K[K [KESCESC[KOO[KBB[K     The [1mscript[0m utility places [1meverything[0m in the log file, including linefeeds
+:[K[K [KESCESC[KOO[KBB[K     and backspaces.  This is not what the naive user expects.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     It is not possible to specify a command without also naming the script
+:[K[K [KESCESC[KOO[KBB[K     file because of argument parsing compatibility issues.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     When running in [1m-k[0m mode, echo cancelling is far from ideal.  The slave
+:[K[K [KESCESC[KOO[KBB[K     terminal mode is checked for ECHO mode to check when to avoid manual echo
+:[K[K [KESCESC[KOO[KBB[K     logging.  This does not work when the terminal is in a raw mode where the
+:[K[K [KESCESC[KOO[KBB[K     program being run is doing manual echo.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     If [1mscript[0m reads zero bytes from the terminal, it switches to a mode when
+:[K[K [KESCESC[KOO[KBB[K     it only attempts to read once a second until there is data to read.  This
+:[K[K [KESCESC[KOO[KBB[K     prevents [1mscript[0m from spinning on zero-byte reads, but might cause a
+:[K[K [KESCESC[KOO[KAA[K[HM[1mSEE[0m [1mALSO[0m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM            (Most shells set this variable automatically).
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM            that shell.  If SHELL is not set, the Bourne shell is assumed.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     SHELL  If the variable SHELL exists, the shell forked by [1mscript[0m will be
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM            of the [4mtypescript[24m file.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM            overwritten within the sub-shell.  The value of SCRIPT is the name
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM            SCRIPT already existed in the users environment, its value is
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM            The SCRIPT environment variable is added to the sub-shell.  If
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     SCRIPT
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     The following environment variables are utilized by [1mscript[0m:
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mENVIRONMENT[0m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     minal, not an addressable one.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     manipulate the screen.  The results are meant to emulate a hardcopy ter-
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     script file.  The [1mscript[0m utility works best with commands that do not
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     Certain interactive commands, such as vi(1), create garbage in the type-
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [4mignoreeof[24m is not set) for the C-shell, csh(1)).
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     exit the Bourne shell (sh(1)), and [4mexit[24m, [4mlogout[24m or [4mcontrol-D[24m (if
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     The script ends when the forked shell (or command) exits (a [4mcontrol-D[24m to
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             onds.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             after every character I/O event.  The default interval is 30 sec-
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             flushed to disk, in seconds.  A value of 0 causes [1mscript[0m to flush
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             Specify the interval at which the script output file will be
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-t[0m [4mtime[24m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-r[0m      Record a session with input, output, and timestamping.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             sages.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-q[0m      Run in quiet mode, omit the start, stop and command status mes-
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-p[0m      Play back a session recorded with the [1m-r[0m flag in real time.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-k[0m      Log keys sent to the program as well as output.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             watch the live session using a utility like cat(1).
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             user to create a named pipe using mkfifo(1) and another user may
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             Immediately flush output after each write.  This will allow a
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-F[0m [4mpipe[24m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             between records when playing back a timestamped session.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-d[0m      When playing back a session with the [1m-p[0m flag, do not sleep
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             tents.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-a[0m      Append the output to [4mfile[24m or [4mtypescript[24m, retaining the prior con-
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     The following options are available:
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     with an optional argument vector instead of an interactive shell.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     If the argument [4mcommand[24m is given, [1mscript[0m will run the specified command
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     file name is given, the typescript is saved in the file [4mtypescript[24m.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     If the argument [4mfile[24m is given, [1mscript[0m saves all dialogue in [4mfile[24m.  If no
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     printed out later with lpr(1).
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     active session as proof of an assignment, as the typescript file can be
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     minal.  It is useful for students who need a hardcopy record of an inter-
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     The [1mscript[0m utility makes a typescript of everything printed on your ter-
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1mscript[0m [[1m-adkpqr[0m] [[1m-F[0m [4mpipe[24m] [[1m-t[0m [4mtime[24m] [[4mfile[24m [[4mcommand[24m [4m...[24m]]
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1mscript[0m -- make typescript of terminal session
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSCRIPT(1)                 BSD General Commands Manual                SCRIPT(1)
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[K     [1m-a[0m      Append the output to [4mfile[24m or [4mtypescript[24m, retaining the prior con-
+:[K[K [KESCESC[KOO[KBB[K             tents.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-d[0m      When playing back a session with the [1m-p[0m flag, do not sleep
+:[K[K [KESCESC[KOO[KBB[K             between records when playing back a timestamped session.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-F[0m [4mpipe[24m
+:[K[K [KESCESC[KOO[KBB[K             Immediately flush output after each write.  This will allow a
+:[K[K [KESCESC[KOO[KBB[K             user to create a named pipe using mkfifo(1) and another user may
+:[K[K [KESCESC[KOO[KBB[K             watch the live session using a utility like cat(1).
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-k[0m      Log keys sent to the program as well as output.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-p[0m      Play back a session recorded with the [1m-r[0m flag in real time.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-q[0m      Run in quiet mode, omit the start, stop and command status mes-
+:[K[K [KESCESC[KOO[KBB[K             sages.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-r[0m      Record a session with input, output, and timestamping.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     [1m-t[0m [4mtime[24m
+:[K[K [KESCESC[KOO[KBB[K             Specify the interval at which the script output file will be
+:[K[K [KESCESC[KOO[KBB[K             flushed to disk, in seconds.  A value of 0 causes [1mscript[0m to flush
+:[K[K [KESCESC[KOO[KBB[K             after every character I/O event.  The default interval is 30 sec-
+:[K[K [KESCESC[KOO[KBB[K             onds.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     The script ends when the forked shell (or command) exits (a [4mcontrol-D[24m to
+:[K[K [KESCESC[KOO[KBB[K     exit the Bourne shell (sh(1)), and [4mexit[24m, [4mlogout[24m or [4mcontrol-D[24m (if
+:[K[K [KESCESC[KOO[KBB[K     [4mignoreeof[24m is not set) for the C-shell, csh(1)).
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     Certain interactive commands, such as vi(1), create garbage in the type-
+:[K[K [KESCESC[KOO[KBB[K     script file.  The [1mscript[0m utility works best with commands that do not
+:[K[K [KESCESC[KOO[KBB[K     manipulate the screen.  The results are meant to emulate a hardcopy ter-
+:[K[K [KESCESC[KOO[KBB[K     minal, not an addressable one.
+:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             watch the live session using a utility like cat(1).
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             user to create a named pipe using mkfifo(1) and another user may
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             Immediately flush output after each write.  This will allow a
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-F[0m [4mpipe[24m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             between records when playing back a timestamped session.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-d[0m      When playing back a session with the [1m-p[0m flag, do not sleep
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             tents.
+[24;1H[K:[K[K [KESCESC[KOO[KBB[K             onds.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     The script ends when the forked shell (or command) exits (a [4mcontrol-D[24m to
+:[K[K [KESCESC[KOO[KBB[K     exit the Bourne shell (sh(1)), and [4mexit[24m, [4mlogout[24m or [4mcontrol-D[24m (if
+:[K[K [KESCESC[KOO[KBB[K     [4mignoreeof[24m is not set) for the C-shell, csh(1)).
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     Certain interactive commands, such as vi(1), create garbage in the type-
+:[K[K [KESCESC[KOO[KBB[K     script file.  The [1mscript[0m utility works best with commands that do not
+:[K[K [KESCESC[KOO[KBB[K     manipulate the screen.  The results are meant to emulate a hardcopy ter-
+:[K[K [KESCESC[KOO[KBB[K     minal, not an addressable one.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mENVIRONMENT[0m
+:[K[K [KESCESC[KOO[KBB[K     The following environment variables are utilized by [1mscript[0m:
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     SCRIPT
+:[K[K [KESCESC[KOO[KBB[K            The SCRIPT environment variable is added to the sub-shell.  If
+:[K[K [KESCESC[KOO[KBB[K            SCRIPT already existed in the users environment, its value is
+:[K[K [KESCESC[KOO[KBB[K            overwritten within the sub-shell.  The value of SCRIPT is the name
+:[K[K [KESCESC[KOO[KBB[K            of the [4mtypescript[24m file.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     SHELL  If the variable SHELL exists, the shell forked by [1mscript[0m will be
+:[K[K [KESCESC[KOO[KBB[K            that shell.  If SHELL is not set, the Bourne shell is assumed.
+:[K[K [KESCESC[KOO[KBB[K            (Most shells set this variable automatically).
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m
+:[K[K [KESCESC[KOO[KBB[K     csh(1)
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mHISTORY[0m
+:[K[K [KESCESC[KOO[KBB[K     The [1mscript[0m command appeared in 3.0BSD.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     The [1m-d[0m, [1m-p[0m and [1m-r[0m options first appeared in NetBSD 2.0 and were ported to
+:[K[K [KESCESC[KOO[KBB[K     FreeBSD 9.2.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mBUGS[0m
+:[K[K [KESCESC[KOO[KBB[K     The [1mscript[0m utility places [1meverything[0m in the log file, including linefeeds
+:[K[K [KESCESC[KOO[KBB[K     and backspaces.  This is not what the naive user expects.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     It is not possible to specify a command without also naming the script
+:[K[K [KESCESC[KOO[KAA[K[HM     SCRIPT
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     The following environment variables are utilized by [1mscript[0m:
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[1mENVIRONMENT[0m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     minal, not an addressable one.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     manipulate the screen.  The results are meant to emulate a hardcopy ter-
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     script file.  The [1mscript[0m utility works best with commands that do not
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     Certain interactive commands, such as vi(1), create garbage in the type-
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [4mignoreeof[24m is not set) for the C-shell, csh(1)).
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     exit the Bourne shell (sh(1)), and [4mexit[24m, [4mlogout[24m or [4mcontrol-D[24m (if
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     The script ends when the forked shell (or command) exits (a [4mcontrol-D[24m to
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             onds.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             after every character I/O event.  The default interval is 30 sec-
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             flushed to disk, in seconds.  A value of 0 causes [1mscript[0m to flush
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             Specify the interval at which the script output file will be
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-t[0m [4mtime[24m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-r[0m      Record a session with input, output, and timestamping.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM             sages.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-q[0m      Run in quiet mode, omit the start, stop and command status mes-
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-p[0m      Play back a session recorded with the [1m-r[0m flag in real time.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM     [1m-k[0m      Log keys sent to the program as well as output.
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[24;1H[K:[K[K [KESCESC[KOO[KBB[K     minal, not an addressable one.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mENVIRONMENT[0m
+:[K[K [KESCESC[KOO[KBB[K     The following environment variables are utilized by [1mscript[0m:
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     SCRIPT
+:[K[K [KESCESC[KOO[KBB[K            The SCRIPT environment variable is added to the sub-shell.  If
+:[K[K [KESCESC[KOO[KBB[K            SCRIPT already existed in the users environment, its value is
+:[K[K [KESCESC[KOO[KBB[K            overwritten within the sub-shell.  The value of SCRIPT is the name
+:[K[K [KESCESC[KOO[KBB[K            of the [4mtypescript[24m file.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     SHELL  If the variable SHELL exists, the shell forked by [1mscript[0m will be
+:[K[K [KESCESC[KOO[KBB[K            that shell.  If SHELL is not set, the Bourne shell is assumed.
+:[K[K [KESCESC[KOO[KBB[K            (Most shells set this variable automatically).
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m
+:[K[K [KESCESC[KOO[KBB[K     csh(1)
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mHISTORY[0m
+:[K[K [KESCESC[KOO[KBB[K     The [1mscript[0m command appeared in 3.0BSD.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     The [1m-d[0m, [1m-p[0m and [1m-r[0m options first appeared in NetBSD 2.0 and were ported to
+:[K[K [KESCESC[KOO[KBB[K     FreeBSD 9.2.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K[1mBUGS[0m
+:[K[K [KESCESC[KOO[KBB[K     The [1mscript[0m utility places [1meverything[0m in the log file, including linefeeds
+:[K[K [KESCESC[KOO[KBB[K     and backspaces.  This is not what the naive user expects.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     It is not possible to specify a command without also naming the script
+:[K[K [KESCESC[KOO[KBB[K     file because of argument parsing compatibility issues.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     When running in [1m-k[0m mode, echo cancelling is far from ideal.  The slave
+:[K[K [KESCESC[KOO[KBB[K     terminal mode is checked for ECHO mode to check when to avoid manual echo
+:[K[K [KESCESC[KOO[KBB[K     logging.  This does not work when the terminal is in a raw mode where the
+:[K[K [KESCESC[KOO[KBB[K     program being run is doing manual echo.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K     If [1mscript[0m reads zero bytes from the terminal, it switches to a mode when
+:[K[K [KESCESC[KOO[KBB[K     it only attempts to read once a second until there is data to read.  This
+:[K[K:[K[K[?1l>[?1049lbash-3.2$ view lab2[K1/ulsq[K[K[K[Klaa[Kb1.script 
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"lab1/lab1.script" [readonly][noeol] 435L, 43286C[>c[1;1HScript started on Sun Mar 19 22:44:12 2017
+[34m^[[m[?1034hbash-3.2$ whoamil[34m^H^[[m[K;pwd[34m^H^H^H[m pwd[34m^H^H^H^M[m
+tommymok[34m^M[m
+/Users/tommymok[34m^M[m
+bash-3.2$ git config =[34m^H^[[m[K-0[34m^H^[[m[Kl[34m^M[m
+core.trustctime=false[34m^M[m
+credential.helper=osxkeychain[34m^M[m
+core.repositoryformatversion=0[34m^M[m
+core.filemode=true[34m^M[m
+core.bare=false[34m^M[m
+core.logallrefupdates=true[34m^M[m
+core.ignorecase=true[34m^M[m
+core.precomposeunicode=true[34m^M[m
+remote.origin.url=https://github.com/tommymok/lab1.git[34m^M[m
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[34m^M[m
+branch.master.remote=origin[34m^M[m
+branch.master.merge=refs/heads/master[34m^M[m
+bash-3.2$ git clone hg[34m^H^[[m[Kttp:/[34m^H^[[m[K[34m^H^[[m[Ks://githi[34m^H^[[m[Kub.,[34m^H^[[m[Kcom/tommymm[19;1Hok/b[34m^H^[[m[Klab1[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[KK[20;1H[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^HH[21;1H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[Khttps://github.com/tommymok/lab1.gg[22;1Hit[34m^M[m
+fatal: destination path 'lab1' already exists and is not an empty directory.[34m^M[1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[23;1H[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash-3.2$ ls[34m^M[m[24;1H[K[23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HApplications    Documents       Library[8C Pictures[7C lab1[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HBlizzard[7C Downloads       Movies[9C Public[9C lab1.script[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HDesktop[8C Dropbox[8C Music[10C README.md[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash-3.2$ mv[34m^H^[[m[K[34m^H^[[m[Kfinder[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash: finder: command not found[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[2M[1;24r[22;1Hbash-3.2$ finder[34m^H^H^H^H^H^H^[[m[4Pls[34m^H^H[mgit clone https://github.com/tommymok/labb[23;1H1.git[34m^M[22;1H[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hfatal: destination path 'lab1' already exists and is not an empty directory.[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash-3.2$ ,[34m^H^[[m[Kls[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HApplications    Documents       Library[8C Pictures[7C lab1.script[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HBlizzard[7C Downloads       Movies[9C Public[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HDesktop[8C Dropbox[8C Music[10C README.md[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[3M[1;24r[21;1Hbash-3.2$ ls[34m^H^H[mgit clone https://github.com/tommymok/lab1.git[34m^M^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[CC[22;1H[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[Cfinder[34m^[[m[K[34m^H^H^H^H^H^H[mgit clone https://github.com/tommyy[23;1Hmok/lab1.git[34m^M[21;1H[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HCloning into 'lab1'...[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[5M[1;24r[19;1Hremote: Counting objects: 15, done.[34m^[[m[K[34m^M[m
+remote: Compressing objects:  20% (1/5)   [34m^[[m[K[34m^M[mremote: Compressing objects:  400[21;1H% (2/5)   [34m^[[m[K[34m^M[mremote: Compressing objects:  60% (3/5)   [34m^[[m[K[34m^M[mremote: Compresss[22;1Hing objects:  80% (4/5)   [34m^[[m[K[34m^M[mremote: Compressing objects: 100% (5/5)   [34m^[[m[K[34m^MM[m[23;1Hremote: Compressing objects: 100% (5/5), done.[34m^[[m[K[34m^M[19;1H[?12l[?25h
+[?25l[1;23r[m[23;1H
+[1;24r[23;1Hremote: Total 15 (delta 0), reused 15 (delta 0), pack-reused 0[34m^[[m[K[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[8M[1;24r[16;1HUnpacking objects:   6% (1/15)   [34m^M[mUnpacking objects:  13% (2/15)   [34m^M[mUnpacking  [17;1Hobjects:  20% (3/15)   [34m^M[mUnpacking objects:  26% (4/15)   [34m^M[mUnpacking objects:   [18;1H33% (5/15)   [34m^M[mUnpacking objects:  40% (6/15)   [34m^M[mUnpacking objects:  46% (7/15))[19;1H   [34m^M[mUnpacking objects:  53% (8/15)   [34m^M[mUnpacking objects:  60% (9/15)   [34m^M[mUnpacc[20;1Hking objects:  66% (10/15)   [34m^M[mUnpacking objects:  73% (11/15)   [34m^M[mUnpacking objj[21;1Hects:  80% (12/15)   [34m^M[mUnpacking objects:  86% (13/15)   [34m^M[mUnpacking objects:  99[22;1H3% (14/15)   [34m^M[mUnpacking objects: 100% (15/15)   [34m^M[mUnpacking objects: 100% (15/11[23;1H5), done.[34m^M[16;1H[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HChecking connectivity... done.[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash-3.2$ cat lab1.script[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HScript started on Sun Mar 19 22:44:12 2017[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1H[34m^[[m[?1034hbash-3.2$ whoamil[34m^H^[[m[K;pwd[34m^H^H^H[m pwd[34m^H^H^H^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Htommymok[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[3M[1;24r[21;1H/Users/tommymok[34m^M^M[m
+bash-3.2$ git config =[34m^H^[[m[K-0[34m^H^[[m[Kl[34m^M^M[m
+core.trustctime=false[34m^M^M[21;1H[?12l[?25h
+
+[?25l[1;23r[m[23;1H
+[1;24r[23;1Hcredential.helper=osxkeychain[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hcore.repositoryformatversion=0[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[4M[1;24r[20;1Hcore.filemode=true[34m^M^M[m
+core.bare=false[34m^M^M[m
+core.logallrefupdates=true[34m^M^M[m
+core.ignorecase=true[34m^M^M[20;1H[?12l[?25h
+
+
+[?25l[1;23r[m[23;1H
+[1;24r[23;1Hcore.precomposeunicode=true[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[8M[1;24r[16;1Hremote.origin.url=https://github.com/tommymok/lab1.git[34m^M^M[m
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[34m^M^M[m
+branch.master.remote=origin[34m^M^M[m
+branch.master.merge=refs/heads/master[34m^M^M[m
+bash-3.2$ git clone hg[34m^H^[[m[Kttp:/[34m^H^[[m[K[34m^H^[[m[Ks://githi[34m^H^[[m[Kub.,[34m^H^[[m[Kcom/tommymm[21;1Hok/b[34m^H^[[m[Klab1[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[KK[22;1H[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^HH[23;1H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[Khttps://github.com/tommymok/lab1.g[20;1H[94m@                                                                               [21;1H@                                                                               [22;1H@                                                                               [23;1H@                                                                               [16;1H[?12l[?25h
+
+
+[?25l[1;23r[m[23;1H
+[1;24r[19;1Hbash-3.2$ git clone hg[34m^H^[[m[Kttp:/[34m^H^[[m[K[34m^H^[[m[Ks://githi[34m^H^[[m[Kub.,[34m^H^[[m[Kcom/tommymm[20;1Hok/b[34m^H^[[m[Klab1[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[KK[21;1H[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^HH[22;1H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[Khttps://github.com/tommymok/lab1.gg[23;1Hit[34m^M^M[19;1H[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hfatal: destination path 'lab1' already exists and is not an empty directory.[34m^M^M[23;1H[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash-3.2$ ls[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HApplications    Documents       Library[8C Pictures[7C lab1[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HBlizzard[7C Downloads       Movies[9C Public[9C lab1.script[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HDesktop[8C Dropbox[8C Music[10C README.md[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash-3.2$ mv[34m^H^[[m[K[34m^H^[[m[Kfinder[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash: finder: command not found[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[2M[1;24r[22;1Hbash-3.2$ finder[34m^H^H^H^H^H^H^[[m[4Pls[34m^H^H[mgit clone https://github.com/tommymok/labb[23;1H1.git[34m^M^M[22;1H[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hfatal: destination path 'lab1' already exists and is not an empty directory.[34m^M^M[23;1H[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash-3.2$ ,[34m^H^[[m[Kls[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HApplications    Documents       Library[8C Pictures[7C lab1.script[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HBlizzard[7C Downloads       Movies[9C Public[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HDesktop[8C Dropbox[8C Music[10C README.md[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash-3.2$ bash-3.2$ mv lab1.script lab1[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash-3.2$ vi lab1.s[34m^H^[[m[Kcpp[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[2M[1;24r[22;1H[34m^[[m[?1049h[34m^[[m[?1h[34m^[[m=[34m^[[m[1;24r[34m^[[m[?12;25h[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[27m[34m^[[m[m[34m^[[m[H[34m^[[m[2J[34m^[[m[?25l[34m^[[m[22[23;1H4;1HE325: ATTENTION[34m^M^M[22;1H[?12l[?25h[?25l[1;23r[m[1;1H[5M[1;24r[19;1HFound a swap file by the name ".lab1.cpp.swp"[34m^M^M
+^[[m[10Cowned by: tommymok   dated: Fri Mar 10 15:43:43 2017[34m^M^M
+^[[m[9Cfile name: ~tommymok/lab1.cpp[34m^M^M
+^[[m[10Cmodified: YES[34m^M^M
+^[[m[9Cuser name: tommymok   host name: tommyde-MacBook-Pro.local[34m^M^M[19;1H[?12l[?25h
+
+
+
+[?25l[1;23r[m[23;1H
+[1;24r[23;1H[34m^[[m[8Cprocess ID: 2147[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HWhile opening file "lab1.cpp"[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1H[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1H[106m([m1[106m)[m Another program may be editing the same file.[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[22;1H(1)
+    If this is the case, be careful not to end up with two[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;4H different instances of the same file when making changes.[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;4H Quit, or continue with caution.[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[2M[1;24r[22;1H[34m^M[m
+(2) An edit session for this file crashed.[34m^M^M[22;1H[?12l[?25h[?25l[m
+[106m([m2[106m)[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[22;1H(2)
+    If this is the case, use ":recover" or "vim -r lab1.cpp"[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;4H to recover the changes (see ":help recovery").[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;4H If you did this already, delete the swap file ".lab1.cpp.swp"[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;4H to avoid this message.[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1H[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HSwap file ".lab1.cpp.swp" already exists![34m^M^M[?12l[?25h[?25l[27m[m[H[2J[1;1H[106m[[mO[106m][mpen Read-Only, (E)dit anyway, (R)ecover, (D)elete it, (Q)uit, (A)bort:[34m^[[m[?12ll[2;1H[34m^[[m[?25h[34m^[[m[24;1H[34m^[[m[K[34m^[[m[?25l[34m^[[m[24;1H"lab1.cpp" [New File][34m^[[m[>c[34m^[[m[2;1H[34m^[[m[94m~       [3;1H [71C [34m^[[m[3;1HH[4;1H~[78C  [5;1H[34m^[[m[4;1H~[71C  [6;1H       [34m^[[m[5;1H~[64C  [7;1H [12C [34m^[[m[6;1H~[57C  [8;1H [19C [34m^[[m[7;1H~[50C  [9;1H [26C [34m^[[m[8;1H~[43C  [10;1H [33C [34m^[[m[9;1H~[36C  [11;1H [40C [34m^[[m[10;1H~[28C  [12;1H [48C [34m^[[m[11;1H~[20C  [13;1H [56C [34m^[[m[12;1H~[12C  [14;1H [64C [34m^[[m[13;1H~      [15;1H [72C [34m^[[m[14;;[16;1H1H~[76C  [17;1H  [34m^[[m[15;1H~[68C  [18;1H [8C [34m^[[m[16;1H~[60C  [19;1H [16C [34m^[[m[17;1H~[52C  [20;1H [24C [34m^[[m[18;1H~[44C  [21;1H [32C [34m^[[m[19;1H~[36C  [22;1H [40C [34m^[[m[20;1H~[28C  [23;1H [48C [34m^[[m[21;1H~[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;2H [34m^M
+^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m w[34m^[[m[[[3;1H?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mwh[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mhi[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mil[34m^[[m[?12l[34m^^[4;1H[[m[?25h[34m^[[m[?25l[34m^H[mle[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[me([34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m(n[34m^[[m[?12l[34m^[[m[?255[5;1Hh[34m^[[m[?25l[34m^H[mn![34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m!-[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[10;12H[34m^[[m[K[34m^[[m[10;12HH[6;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m!=[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m=1[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^H^H^H^^[7;1HH^[[m[106m([34m^[[m[mn!=1[34m^[[m[106m)[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[m[34m^H^H^H^H^H^H[m(n!=1)[34m^[[m[11;1H[34m^[[m[KK[8;1H[34m^[[m[11;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?122[9;1Hl[34m^[[m[?25h[34m^[[m[?25l[34m^H[m {[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;1H[34m^[[m[K[34m^[[m[12;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?255[10;1Hl [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?22[11;1H5h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m i[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mif[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?255[12;1Hl [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m ([34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;9H[34m^[[m[K[34m^[[m[12;9H[34m^[[m[?12l[34m^[[m[?22[13;1H5h[34m^[[m[?25l[34m^H^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mf([34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m(n[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?22[14;1H5l[34m^H[mn$[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;10H[34m^[[m[K[34m^[[m[12;10H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mn#[34m^[[m[?122[15;1Hl[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;10H[34m^[[m[K[34m^[[m[12;10H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mn%[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[??[16;1H25l[34m^H[m%2[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m =[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m==[34m^^[17;1H[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;14H[34m^[[m[K[34m^[[m[12;14H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;13H[34m^[[m[K[34m^[[m[11[18;1H2;13H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m2=[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m==[34m^[[[m[19;1H[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m=0[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;8H[34m^[[m[106m([34m^[[m[mn%2==0[34m^[[m[106m)[34m^[[[m[20;1H[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[m[34m^[[m[12;8H(n%2==0)[34m^[[m[13;1H[34m^[[m[K[34m^[[m[13;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25ll[21;1H [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?255[22;1Hh[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m {[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m  [23;1Hn[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mn/[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[13;9H[34m^[[m[K[34m^[[m[13;9H[34m^[[m[?12l[34m^[[m[?25[2;1H[94m@                                                                               [3;1H@                                                                               [4;1H@                                                                               [5;1H@                                                                               [6;1H@                                                                               [7;1H@                                                                               [8;1H@                                                                               [9;1H@                                                                               [10;1H@                                                                               [11;1H@                                                                               [12;1H@                                                                               [13;1H@                                                                               [14;1H@                                                                               [15;1H@                                                                               [16;1H@                                                                               [17;1H@                                                                               [18;1H@                                                                               [19;1H@                                                                               [20;1H@                                                                               [21;1H@                                                                               [22;1H@                                                                               [23;1H@                                                                               [1;1H[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[1;1H[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m w[34m^[[m[[[2;1H?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mwh[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mhi[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mil[34m^[[m[?12l[34m^^[3;1H[[m[?25h[34m^[[m[?25l[34m^H[mle[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[me([34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m(n[34m^[[m[?12l[34m^[[m[?255[4;1Hh[34m^[[m[?25l[34m^H[mn![34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m!-[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[10;12H[34m^[[m[K[34m^[[m[10;12HH[5;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m!=[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m=1[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^H^H^H^^[6;1HH^[[m[106m([34m^[[m[mn!=1[34m^[[m[106m)[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[m[34m^H^H^H^H^H^H[m(n!=1)[34m^[[m[11;1H[34m^[[m[KK[7;1H[34m^[[m[11;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?122[8;1Hl[34m^[[m[?25h[34m^[[m[?25l[34m^H[m {[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;1H[34m^[[m[K[34m^[[m[12;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?255[9;1Hl [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?22[10;1H5h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m i[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mif[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?255[11;1Hl [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m ([34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;9H[34m^[[m[K[34m^[[m[12;9H[34m^[[m[?12l[34m^[[m[?22[12;1H5h[34m^[[m[?25l[34m^H^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mf([34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m(n[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?22[13;1H5l[34m^H[mn$[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;10H[34m^[[m[K[34m^[[m[12;10H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mn#[34m^[[m[?122[14;1Hl[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;10H[34m^[[m[K[34m^[[m[12;10H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mn%[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[??[15;1H25l[34m^H[m%2[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m =[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m==[34m^^[16;1H[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;14H[34m^[[m[K[34m^[[m[12;14H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;13H[34m^[[m[K[34m^[[m[11[17;1H2;13H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m2=[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m==[34m^[[[m[18;1H[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m=0[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;8H[34m^[[m[106m([34m^[[m[mn%2==0[34m^[[m[106m)[34m^[[[m[19;1H[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[m[34m^[[m[12;8H(n%2==0)[34m^[[m[13;1H[34m^[[m[K[34m^[[m[13;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25ll[20;1H [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?255[21;1Hh[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m {[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m  [22;1Hn[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mn/[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[13;9H[34m^[[m[K[34m^[[m[13;9H[34m^[[m[?12l[34m^[[m[?255[23;1Hh[34m^[[m[?25l[34m^H[mn-[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m-n[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[13;10H[34m^[[m[K[34m^[[m[13;10H[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1H[34m^[[m[1;24r[34m^[[m[16;5H else[34m^[[m[23;1H[34m^[[m[94m~[43C  [2;1H [33C [34m^[[m[16;10H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[17;10H[34m^[[m[m3*n[34m^[[m[24;;[3;1H1H[34m^[[m[K[34m^[[m[?25l[34m^[[m[17;12H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[24;1H[34m^[[m[1m-- INSERT --[34m^[[m[17;23r[34m^[[m[[[4;1Hm[34m^[[m[17;1H[34m^[[m[L[34m^[[m[1;24r[34m^[[m[17;1Hl[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[17;1H[34m^[[m[K[34m^[[m[17;1H[34m^[[m[?12l[34m^[[[m[5;1H[?25h[34m^[[m[?25l[34m^[[m[16;23r[34m^[[m[23;1H[34m^M
+^[[m[1;24r[34m^[[m[16;5H else[34m^[[m[23;1H[34m^[[m[94m~[43C  [7;1H [33C [34m^[[m[16;10H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[17;10H[34m^G^[[m[m3*n[34m^[[m[??[8;1H25l[34m^H[mn+[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m+1[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m1;[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[[m[9;1H[18;1H[34m^[[m[K[34m^[[m[18;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[??[10;1H25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[[[11;1H?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m  [12;1Hc[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mco[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mou[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mut[34m^[[m[??[13;1H12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m <[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m<<[34m^[[m[?12l[34m^[[m[?22[14;1H5h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m n[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^HH[m[15;1H <[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m<<[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m '[34m^[[m[?122[16;1Hl[34m^[[m[?25h[34m^[[m[?25l[34m^H[m'"[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[18;24H[34m^[[m[K[34m^[[m[18;24H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[??[17;1H25l[34m^[[m[18;23H[34m^[[m[K[34m^[[m[18;23H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m "[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^^[18;1H[[m[?25h[34m^[[m[?25l[34m^H[m "[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m";[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m;l[34m^[[m[?12l[34m^[[m[?255[19;1Hh[34m^[[m[?25l[34m^[[m[18;27H[34m^[[m[K[34m^[[m[18;27H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[19;1H[34m^[[m[K[34m^[[m[19;1H[34m^[[m[?12l[34m^[[[m[20;1H[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^^[21;1H[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m {[34m^[[m[?12l[34m^[[m[?22[22;1H5h[34m^[[m[?25l[34m^[[m[19;7H[34m^[[m[K[34m^[[m[19;7H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m {[34m^[[m[[[23;1H?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[19;6H[34m^[[m[K[34m^[[m[19;6H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[17;6H[34m^[[m[106m{[34m^[[m[m[34m^[m[6;1H[94m@                                                                               [7;1H@                                                                               [8;1H@                                                                               [9;1H@                                                                               [10;1H@                                                                               [11;1H@                                                                               [12;1H@                                                                               [13;1H@                                                                               [14;1H@                                                                               [15;1H@                                                                               [16;1H@                                                                               [17;1H@                                                                               [18;1H@                                                                               [19;1H@                                                                               [20;1H@                                                                               [21;1H@                                                                               [22;1H@                                                                               [23;1H@                                                                               [1;1H[?12l[?25h[?25l[1;23r[m[1;1H[5M[1;24r[1;1H[34m^[[m[1;24r[34m^[[m[16;5H else[34m^[[m[23;1H[34m^[[m[94m~                                             [2;1H                                   [34m^[[m[16;10H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[17;10H[34m^G^[[m[m3*n[34m^[[m[??[3;1H25l[34m^H[mn+[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m+1[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m1;[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[[m[4;1H[18;1H[34m^[[m[K[34m^[[m[18;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[??[5;1H25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[[[6;1H?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m  [7;1Hc[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mco[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mou[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mut[34m^[[m[??[8;1H12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m <[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m<<[34m^[[m[?12l[34m^[[m[?22[9;1H5h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m n[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^HH[m[10;1H <[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m<<[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m '[34m^[[m[?122[11;1Hl[34m^[[m[?25h[34m^[[m[?25l[34m^H[m'"[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[18;24H[34m^[[m[K[34m^[[m[18;24H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[??[12;1H25l[34m^[[m[18;23H[34m^[[m[K[34m^[[m[18;23H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m "[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^^[13;1H[[m[?25h[34m^[[m[?25l[34m^H[m "[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m";[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m;l[34m^[[m[?12l[34m^[[m[?255[14;1Hh[34m^[[m[?25l[34m^[[m[18;27H[34m^[[m[K[34m^[[m[18;27H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[19;1H[34m^[[m[K[34m^[[m[19;1H[34m^[[m[?12l[34m^[[[m[15;1H[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^^[16;1H[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m {[34m^[[m[?12l[34m^[[m[?22[17;1H5h[34m^[[m[?25l[34m^[[m[19;7H[34m^[[m[K[34m^[[m[19;7H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m {[34m^[[m[[[18;1H?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[19;6H[34m^[[m[K[34m^[[m[19;6H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[17;6H[34m^[[m[106m{[34m^[[m[m[34m^^[19;1H[[m[19;5H [34m^[[m[106m}[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[m[34m^[[m[17;6H{[34m^[[m[19;6H}[34m^[[m[20;1H[34m^[[m[K[34m^[[m[20;1H[34m^^[20;1H[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[11;4H[34m^[[m[106m{[34m^[[m[m[34m^[[m[20;1H [34m^[[m[106m}[34m^^[21;1H[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[m[34m^[[m[11;4H{[34m^[[m[20;2H}[34m^[[m[21;1H[34m^[[m[K[34m^[[m[21;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[??[22;1H25l[34m^[[m[7;1H[34m^[[m[106m{[34m^[[m[21;1H}[34m^[[m[?12l[34m^[[m[?25h[34m^G^G^[[m[?25l[34m^[[m[m[34m^[[m[7;1H{[34m^[[m[21;1H}1[34m^[[m[?122[23;1Hl[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[7;1H[34m^[[m[106m{[34m^[[m[21;1H}[34m^[[m[m[34m^[[m[21;2H[34m^[[m[K[34m^[[m[21;2H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[[1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1H[34m^M
+^M[m
+:[34m^[[m[?12l[34m^[[m[?25hq[34m^[[m[?25l[34m^[[m[24;2H[34m^[[m[K[34m^[[m[24;2H[34m^[[m[?12l[34m^[[m[?25hws[34m^[[m[?25l[34m^[[m[24;3H[34m^[[m[K[34m^[[[m[4;1H[24;3H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[24;2H[34m^[[m[K[34m^[[m[24;2H[34m^[[m[?12l[34m^[[m[?25hw[34m^M^[[m[?25l"lab1.cppp[5;1H" [New] 21L, 244C written[34m^[[m[21;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[24;1H[34m^[[m[K[34m^[[m[24;1H:[34m^[[m[?11[6;1H2l[34m^[[m[?25hq[34m^M^[[m[?25l[34m^[[m[24;1H[34m^[[m[K[34m^[[m[24;1H[34m^[[m[?1l[34m^[[m>[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?1049lbash-3.2$$[7;1H g++ lab1.cpp[34m^M[m
+bash-3.2$ ls a ou[34m^H^[[m[K[34m^H^[[m[K.[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^M[m
+Applications    Documents       Library[8C Pictures[7C a.out[34m^M[m
+Blizzard[7C Downloads       Movies[9C Public[9C lab1[34m^M[m
+Desktop[8C Dropbox[8C Music[10C README.md       lab1.cpp[34m^M[m
+bash-3.2$ g++ -[34m^H^[[m[K=[34m^H^[[m[K-0[34m^H^[[m[Koi[34m^H^[[m[K lab1.cpp lab1[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[[m[13;1H[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K lab1.cpp[34m^M[m
+ld: can't open output file for writing: lab1, errno=21 for architecture x86_64[34m^M[m[15;1Hclang: [34m^[[m[0;1;31merror: [34m^[[m[0mlinker command failed with exit code 1 (use -v to ss[16;1Hee invocation)[34m^[[m[0m[34m^M[m
+bash-3.2$ g++ =[34m^H^[[m[K-[34m^H^[[m[K_[34m^H^[[m[K-o[34m^H^[[m[K[34m^H^[[m[K_[34m^H^[[m[K-[34m^H^[[m[K`[34m^H^[[m[K_[34m^H^[[m[K-o[34m^^[18;1HH^[[m[K o[34m^H^[[m[K[34m^H^[[m[Ko [34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^G[ma.out[34m^M[m
+bash: a.out: command not found[34m^M[m
+bash-3.2$ ls a.out[34m^M[m
+a.out[34m^M[m
+bash-3.2$ ,/[34m^H^[[m[K[34m^H^[[m[K./a.out[34m^M[m
+12[34m^M[1;1H[?12l[?25h
+
+[8;1H
+
+
+[10;1H[9;1H[8;1H[3;1H[2;1H[1;1H[?25l[27m[m[H[2J[1;1H[34m^[[m[1;24r[34m^[[m[16;5H else[34m^[[m[23;1H[34m^[[m[94m~[43C  [2;1H [33C [34m^[[m[16;10H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[17;10H[34m^G^[[m[m3*n[34m^[[m[??[3;1H25l[34m^H[mn+[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m+1[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m1;[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[[m[4;1H[18;1H[34m^[[m[K[34m^[[m[18;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[??[5;1H25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[[[6;1H?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m  [7;1Hc[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mco[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mou[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mut[34m^[[m[??[8;1H12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m <[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m<<[34m^[[m[?12l[34m^[[m[?22[9;1H5h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m n[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^HH[m[10;1H <[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m<<[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m '[34m^[[m[?122[11;1Hl[34m^[[m[?25h[34m^[[m[?25l[34m^H[m'"[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[18;24H[34m^[[m[K[34m^[[m[18;24H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[??[12;1H25l[34m^[[m[18;23H[34m^[[m[K[34m^[[m[18;23H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m "[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^^[13;1H[[m[?25h[34m^[[m[?25l[34m^H[m "[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m";[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m;l[34m^[[m[?12l[34m^[[m[?255[14;1Hh[34m^[[m[?25l[34m^[[m[18;27H[34m^[[m[K[34m^[[m[18;27H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[19;1H[34m^[[m[K[34m^[[m[19;1H[34m^[[m[?12l[34m^[[[m[15;1H[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^^[16;1H[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m {[34m^[[m[?12l[34m^[[m[?22[17;1H5h[34m^[[m[?25l[34m^[[m[19;7H[34m^[[m[K[34m^[[m[19;7H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m {[34m^[[m[[[18;1H?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[19;6H[34m^[[m[K[34m^[[m[19;6H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[17;6H[34m^[[m[106m{[34m^[[m[m[34m^^[19;1H[[m[19;5H [34m^[[m[106m}[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[m[34m^[[m[17;6H{[34m^[[m[19;6H}[34m^[[m[20;1H[34m^[[m[K[34m^[[m[20;1H[34m^^[20;1H[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[11;4H[34m^[[m[106m{[34m^[[m[m[34m^[[m[20;1H [34m^[[m[106m}[34m^^[21;1H[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[m[34m^[[m[11;4H{[34m^[[m[20;2H}[34m^[[m[21;1H[34m^[[m[K[34m^[[m[21;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[??[22;1H25l[34m^[[m[7;1H[34m^[[m[106m{[34m^[[m[21;1H}[34m^[[m[?12l[34m^[[m[?25h[34m^G^G^[[m[?25l[34m^[[m[m[34m^[[m[7;1H{[34m^[[m[21;1H}1[34m^[[m[?122[23;1Hl[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[7;1H[34m^[[m[106m{[34m^[[m[21;1H}[34m^[[m[m[34m^[[m[21;2H[34m^[[m[K[34m^[[m[21;2H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[[1;1H[?12l[?25h[?25l[1;23r[1;1H[5L[1;24r[1;1H[34m^[[m[1;24r[34m^[[m[16;5H else[34m^[[m[23;1H[34m^[[m[94m~[43C  [2;1H [33C [34m^[[m[16;10H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[17;10H[34m^[[m[m3*n[34m^[[m[24;;[3;1H1H[34m^[[m[K[34m^[[m[?25l[34m^[[m[17;12H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[24;1H[34m^[[m[1m-- INSERT --[34m^[[m[17;23r[34m^[[m[[[4;1Hm[34m^[[m[17;1H[34m^[[m[L[34m^[[m[1;24r[34m^[[m[17;1Hl[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[17;1H[34m^[[m[K[34m^[[m[17;1H[34m^[[m[?12l[34m^[[[m[5;1H[?25h[34m^[[m[?25l[34m^[[m[16;23r[34m^[[m[23;1H[34m^M[m
+[94m@                                                                               [7;1H@                                                                               [8;1H@                                                                               [9;1H@                                                                               [10;1H@                                                                               [11;1H@                                                                               [12;1H@                                                                               [13;1H@                                                                               [14;1H@                                                                               [15;1H@                                                                               [16;1H@                                                                               [17;1H@                                                                               [18;1H@                                                                               [19;1H@                                                                               [20;1H@                                                                               [21;1H@                                                                               [22;1H@                                                                               [23;1H@                                                                               [1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1H[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m w[34m^[[m[[[2;1H?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mwh[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mhi[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mil[34m^[[m[?12l[34m^^[3;1H[[m[?25h[34m^[[m[?25l[34m^H[mle[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[me([34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m(n[34m^[[m[?12l[34m^[[m[?255[4;1Hh[34m^[[m[?25l[34m^H[mn![34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m!-[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[10;12H[34m^[[m[K[34m^[[m[10;12HH[5;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m!=[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m=1[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^H^H^H^^[6;1HH^[[m[106m([34m^[[m[mn!=1[34m^[[m[106m)[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[m[34m^H^H^H^H^H^H[m(n!=1)[34m^[[m[11;1H[34m^[[m[KK[7;1H[34m^[[m[11;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?122[8;1Hl[34m^[[m[?25h[34m^[[m[?25l[34m^H[m {[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;1H[34m^[[m[K[34m^[[m[12;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?255[9;1Hl [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?22[10;1H5h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m i[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mif[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?255[11;1Hl [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m ([34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;9H[34m^[[m[K[34m^[[m[12;9H[34m^[[m[?12l[34m^[[m[?22[12;1H5h[34m^[[m[?25l[34m^H^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mf([34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m(n[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?22[13;1H5l[34m^H[mn$[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;10H[34m^[[m[K[34m^[[m[12;10H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mn#[34m^[[m[?122[14;1Hl[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;10H[34m^[[m[K[34m^[[m[12;10H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mn%[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[??[15;1H25l[34m^H[m%2[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m =[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m==[34m^^[16;1H[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;14H[34m^[[m[K[34m^[[m[12;14H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;13H[34m^[[m[K[34m^[[m[11[17;1H2;13H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m2=[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m==[34m^[[[m[18;1H[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m=0[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[12;8H[34m^[[m[106m([34m^[[m[mn%2==0[34m^[[m[106m)[34m^[[[m[19;1H[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[m[34m^[[m[12;8H(n%2==0)[34m^[[m[13;1H[34m^[[m[K[34m^[[m[13;1H[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25ll[20;1H [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?255[21;1Hh[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m {[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l [34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m  [22;1Hn[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[mn/[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[13;9H[34m^[[m[K[34m^[[m[13;9H[34m^[[m[?12l[34m^[[m[?255[23;1Hh[34m^[[m[?25l[34m^H[mn-[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^H[m-n[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?25l[34m^[[m[13;10H[34m^[[m[K[34m^[[m[13;10H[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;2H [34m^M[m
+[94m@                                                                               [3;1H@                                                                               [4;1H@                                                                               [5;1H@                                                                               [6;1H@                                                                               [7;1H@                                                                               [8;1H@                                                                               [9;1H@                                                                               [10;1H@                                                                               [11;1H@                                                                               [12;1H@                                                                               [13;1H@                                                                               [14;1H@                                                                               [15;1H@                                                                               [16;1H@                                                                               [17;1H@                                                                               [18;1H@                                                                               [19;1H@                                                                               [20;1H@                                                                               [21;1H@                                                                               [22;1H@                                                                               [23;1H@                                                                               [1;1H[?12l[?25h[?25l[27m[m[H[2J[1;1H[106m[[mO[106m][mpen Read-Only, (E)dit anyway, (R)ecover, (D)elete it, (Q)uit, (A)bort:[34m^[[m[?12ll[2;1H[34m^[[m[?25h[34m^[[m[24;1H[34m^[[m[K[34m^[[m[?25l[34m^[[m[24;1H"lab1.cpp" [New File][34m^[[m[>c[34m^[[m[2;1H[34m^[[m[94m~       [3;1H [71C [34m^[[m[3;1HH[4;1H~[78C  [5;1H[34m^[[m[4;1H~[71C  [6;1H       [34m^[[m[5;1H~[64C  [7;1H [12C [34m^[[m[6;1H~[57C  [8;1H [19C [34m^[[m[7;1H~[50C  [9;1H [26C [34m^[[m[8;1H~[43C  [10;1H [33C [34m^[[m[9;1H~[36C  [11;1H [40C [34m^[[m[10;1H~[28C  [12;1H [48C [34m^[[m[11;1H~[20C  [13;1H [56C [34m^[[m[12;1H~[12C  [14;1H [64C [34m^[[m[13;1H~      [15;1H [72C [34m^[[m[14;;[16;1H1H~[76C  [17;1H  [34m^[[m[15;1H~[68C  [18;1H [8C [34m^[[m[16;1H~[60C  [19;1H [16C [34m^[[m[17;1H~[52C  [20;1H [24C [34m^[[m[18;1H~[44C  [21;1H [32C [34m^[[m[19;1H~[36C  [22;1H [40C [34m^[[m[20;1H~[28C  [23;1H [48C [34m^[[m[21;1H~[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1HSwap file ".lab1.cpp.swp" already exists![34m^M^M[m
+[94m@                                                                               [3;1H@                                                                               [4;1H@                                                                               [5;1H@                                                                               [6;1H@                                                                               [7;1H@                                                                               [8;1H@                                                                               [9;1H@                                                                               [10;1H@                                                                               [11;1H@                                                                               [12;1H@                                                                               [13;1H@                                                                               [14;1H@                                                                               [15;1H@                                                                               [16;1H@                                                                               [17;1H@                                                                               [18;1H@                                                                               [19;1H@                                                                               [20;1H@                                                                               [21;1H@                                                                               [22;1H@                                                                               [23;1H@                                                                               [1;1H[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;4H to avoid this message.[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;4H If you did this already, delete the swap file ".lab1.cpp.swp"[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;4H to recover the changes (see ":help recovery").[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;4H If this is the case, use ":recover" or "vim -r lab1.cpp"[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H[106m([m2[106m)[m An edit session for this file crashed.[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H[34m^M[m
+(2)[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;4H Quit, or continue with caution.[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;4H different instances of the same file when making changes.[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;4H If this is the case, be careful not to end up with two[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H[106m([m1[106m)[m Another program may be editing the same file.[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H[34m^M[m
+(1)[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1HWhile opening file "lab1.cpp"[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H[34m^[[m[8Cprocess ID: 2147[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H[34m^[[m[9Cuser name: tommymok   host name: tommyde-MacBook-Pro.local[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H[34m^[[m[10Cmodified: YES[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H[34m^[[m[9Cfile name: ~tommymok/lab1.cpp[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H[34m^[[m[10Cowned by: tommymok   dated: Fri Mar 10 15:43:43 2017[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HFound a swap file by the name ".lab1.cpp.swp"[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[2L[1;24r[1;1H[34m^[[m[?1049h[34m^[[m[?1h[34m^[[m=[34m^[[m[1;24r[34m^[[m[?12;25h[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[27m[34m^[[m[m[34m^[[m[H[34m^[[m[2J[34m^[[m[?25l[34m^[[m[22[2;1H4;1HE325: ATTENTION[34m^M^M[1;1H[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbash-3.2$ vi lab1.s[34m^H^[[m[Kcpp[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbash-3.2$ bash-3.2$ mv lab1.script lab1[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HDesktop[8C Dropbox[8C Music[10C README.md[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HBlizzard[7C Downloads       Movies[9C Public[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HApplications    Documents       Library[8C Pictures[7C lab1.script[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbash-3.2$ ,[34m^H^[[m[Kls[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hfatal: destination path 'lab1' already exists and is not an empty directory.[34m^M^M[1;1H[?12l[?25h[?25l[1;23r[m[1;1H[2L[1;24r[1;1Hbash-3.2$ finder[34m^H^H^H^H^H^H^[[m[4Pls[34m^H^H[mgit clone https://github.com/tommymok/labb[2;1H1.git[34m^M^M[1;1H[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbash: finder: command not found[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbash-3.2$ mv[34m^H^[[m[K[34m^H^[[m[Kfinder[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HDesktop[8C Dropbox[8C Music[10C README.md[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HBlizzard[7C Downloads       Movies[9C Public[9C lab1.script[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HApplications    Documents       Library[8C Pictures[7C lab1[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbash-3.2$ ls[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hfatal: destination path 'lab1' already exists and is not an empty directory.[34m^M^M[1;1H[?12l[?25h[?25l[1;23r[m[1;1H[5L[1;24r[1;1Hbash-3.2$ git clone hg[34m^H^[[m[Kttp:/[34m^H^[[m[K[34m^H^[[m[Ks://githi[34m^H^[[m[Kub.,[34m^H^[[m[Kcom/tommymm[2;1Hok/b[34m^H^[[m[Klab1[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[KK[3;1H[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^HH[4;1H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[Khttps://github.com/tommymok/lab1.gg[5;1Hit[34m^M^M[1;1H[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbranch.master.merge=refs/heads/master[34m^M^M[m[23;1H[94m@                                                                               [1;1H[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbranch.master.remote=origin[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hremote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hremote.origin.url=https://github.com/tommymok/lab1.git[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcore.precomposeunicode=true[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcore.ignorecase=true[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcore.logallrefupdates=true[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcore.bare=false[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcore.filemode=true[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcore.repositoryformatversion=0[34m^M^M[m[23;1H[94m@                                                                               [1;1H[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcredential.helper=osxkeychain[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcore.trustctime=false[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbash-3.2$ git config =[34m^H^[[m[K-0[34m^H^[[m[Kl[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H/Users/tommymok[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Htommymok[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H[34m^[[m[?1034hbash-3.2$ whoamil[34m^H^[[m[K;pwd[34m^H^H^H[m pwd[34m^H^H^H^M^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HScript started on Sun Mar 19 22:44:12 2017[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbash-3.2$ cat lab1.script[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HChecking connectivity... done.[34m^M[m[20;1H[94m@                                                                               [21;1H@                                                                               [22;1H@                                                                               [23;1H@                                                                               [1;1H[?12l[?25h[?25l[1;23r[m[1;1H[8L[1;24r[1;1HUnpacking objects:   6% (1/15)   [34m^M[mUnpacking objects:  13% (2/15)   [34m^M[mUnpacking  [2;1Hobjects:  20% (3/15)   [34m^M[mUnpacking objects:  26% (4/15)   [34m^M[mUnpacking objects:   [3;1H33% (5/15)   [34m^M[mUnpacking objects:  40% (6/15)   [34m^M[mUnpacking objects:  46% (7/15))[4;1H   [34m^M[mUnpacking objects:  53% (8/15)   [34m^M[mUnpacking objects:  60% (9/15)   [34m^M[mUnpacc[5;1Hking objects:  66% (10/15)   [34m^M[mUnpacking objects:  73% (11/15)   [34m^M[mUnpacking objj[6;1Hects:  80% (12/15)   [34m^M[mUnpacking objects:  86% (13/15)   [34m^M[mUnpacking objects:  99[7;1H3% (14/15)   [34m^M[mUnpacking objects: 100% (15/15)   [34m^M[mUnpacking objects: 100% (15/11[8;1H5), done.[34m^M[1;1H[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hremote: Total 15 (delta 0), reused 15 (delta 0), pack-reused 0[34m^[[m[K[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[4L[1;24r[1;1Hremote: Compressing objects:  20% (1/5)   [34m^[[m[K[34m^M[mremote: Compressing objects:  400[2;1H% (2/5)   [34m^[[m[K[34m^M[mremote: Compressing objects:  60% (3/5)   [34m^[[m[K[34m^M[mremote: Compresss[3;1Hing objects:  80% (4/5)   [34m^[[m[K[34m^M[mremote: Compressing objects: 100% (5/5)   [34m^[[m[K[34m^MM[m[4;1Hremote: Compressing objects: 100% (5/5), done.[34m^[[m[K[34m^M[1;1H[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hremote: Counting objects: 15, done.[34m^[[m[K[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HCloning into 'lab1'...[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[3L[1;24r[1;1Hbash-3.2$ ls[34m^H^H[mgit clone https://github.com/tommymok/lab1.git[34m^M^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[CC[2;1H[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[Cfinder[34m^[[m[K[34m^H^H^H^H^H^H[mgit clone https://github.com/tommyy[3;1Hmok/lab1.git[34m^M[1;1H[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HDesktop[8C Dropbox[8C Music[10C README.md[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HBlizzard[7C Downloads       Movies[9C Public[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HApplications    Documents       Library[8C Pictures[7C lab1.script[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbash-3.2$ ,[34m^H^[[m[Kls[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hfatal: destination path 'lab1' already exists and is not an empty directory.[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[2L[1;24r[1;1Hbash-3.2$ finder[34m^H^H^H^H^H^H^[[m[4Pls[34m^H^H[mgit clone https://github.com/tommymok/labb[2;1H1.git[34m^M[m[18;1H[94m@                                                                               [19;1H@                                                                               [20;1H@                                                                               [21;1H@                                                                               [22;1H@                                                                               [23;1H@                                                                               [1;1H[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbash: finder: command not found[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbash-3.2$ mv[34m^H^[[m[K[34m^H^[[m[Kfinder[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HDesktop[8C Dropbox[8C Music[10C README.md[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HBlizzard[7C Downloads       Movies[9C Public[9C lab1.script[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HApplications    Documents       Library[8C Pictures[7C lab1[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbash-3.2$ ls[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hfatal: destination path 'lab1' already exists and is not an empty directory.[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[5L[1;24r[1;1Hbash-3.2$ git clone hg[34m^H^[[m[Kttp:/[34m^H^[[m[K[34m^H^[[m[Ks://githi[34m^H^[[m[Kub.,[34m^H^[[m[Kcom/tommymm[2;1Hok/b[34m^H^[[m[Klab1[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[KK[3;1H[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^HH[4;1H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[Khttps://github.com/tommymok/lab1.gg[5;1Hit[34m^M[1;1H[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbranch.master.merge=refs/heads/master[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbranch.master.remote=origin[34m^M[m[22;1H[94m@                                                                               [23;1H@                                                                               [1;1H[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hremote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hremote.origin.url=https://github.com/tommymok/lab1.git[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcore.precomposeunicode=true[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcore.ignorecase=true[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcore.logallrefupdates=true[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcore.bare=false[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcore.filemode=true[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcore.repositoryformatversion=0[34m^M[m[23;1H[94m@                                                                               [1;1H[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcredential.helper=osxkeychain[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hcore.trustctime=false[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Hbash-3.2$ git config =[34m^H^[[m[K-0[34m^H^[[m[Kl[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H/Users/tommymok[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1Htommymok[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1H[34m^[[m[?1034hbash-3.2$ whoamil[34m^H^[[m[K;pwd[34m^H^H^H[m pwd[34m^H^H^H^M[?12l[?25h[?25l[1;23r[m[1;1H[L[1;24r[1;1HScript started on Sun Mar 19 22:44:12 2017[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[23;1H[?25l[1;23r[23;1H
+[1;24r[23;1Hbash-3.2$ ls[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HApplications    Documents       Library[8C Pictures[7C lab1[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HBlizzard[7C Downloads       Movies[9C Public[9C lab1.script[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HDesktop[8C Dropbox[8C Music[10C README.md[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash-3.2$ mv[34m^H^[[m[K[34m^H^[[m[Kfinder[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash: finder: command not found[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[2M[1;24r[22;1Hbash-3.2$ finder[34m^H^H^H^H^H^H^[[m[4Pls[34m^H^H[mgit clone https://github.com/tommymok/labb[23;1H1.git[34m^M[22;1H[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hfatal: destination path 'lab1' already exists and is not an empty directory.[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash-3.2$ ,[34m^H^[[m[Kls[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HApplications    Documents       Library[8C Pictures[7C lab1.script[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HBlizzard[7C Downloads       Movies[9C Public[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HDesktop[8C Dropbox[8C Music[10C README.md[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[3M[1;24r[21;1Hbash-3.2$ ls[34m^H^H[mgit clone https://github.com/tommymok/lab1.git[34m^M^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[CC[22;1H[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[C[34m^[[m[Cfinder[34m^[[m[K[34m^H^H^H^H^H^H[mgit clone https://github.com/tommyy[23;1Hmok/lab1.git[34m^M[21;1H[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HCloning into 'lab1'...[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[5M[1;24r[19;1Hremote: Counting objects: 15, done.[34m^[[m[K[34m^M[m
+remote: Compressing objects:  20% (1/5)   [34m^[[m[K[34m^M[mremote: Compressing objects:  400[21;1H% (2/5)   [34m^[[m[K[34m^M[mremote: Compressing objects:  60% (3/5)   [34m^[[m[K[34m^M[mremote: Compresss[22;1Hing objects:  80% (4/5)   [34m^[[m[K[34m^M[mremote: Compressing objects: 100% (5/5)   [34m^[[m[K[34m^MM[m[23;1Hremote: Compressing objects: 100% (5/5), done.[34m^[[m[K[34m^M[19;1H[?12l[?25h
+[?25l[1;23r[m[23;1H
+[1;24r[23;1Hremote: Total 15 (delta 0), reused 15 (delta 0), pack-reused 0[34m^[[m[K[34m^M[?12l[?25h[?25l[1;23r[m[1;1H[8M[1;24r[16;1HUnpacking objects:   6% (1/15)   [34m^M[mUnpacking objects:  13% (2/15)   [34m^M[mUnpacking  [17;1Hobjects:  20% (3/15)   [34m^M[mUnpacking objects:  26% (4/15)   [34m^M[mUnpacking objects:   [18;1H33% (5/15)   [34m^M[mUnpacking objects:  40% (6/15)   [34m^M[mUnpacking objects:  46% (7/15))[19;1H   [34m^M[mUnpacking objects:  53% (8/15)   [34m^M[mUnpacking objects:  60% (9/15)   [34m^M[mUnpacc[20;1Hking objects:  66% (10/15)   [34m^M[mUnpacking objects:  73% (11/15)   [34m^M[mUnpacking objj[21;1Hects:  80% (12/15)   [34m^M[mUnpacking objects:  86% (13/15)   [34m^M[mUnpacking objects:  99[22;1H3% (14/15)   [34m^M[mUnpacking objects: 100% (15/15)   [34m^M[mUnpacking objects: 100% (15/11[23;1H5), done.[34m^M[16;1H[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HChecking connectivity... done.[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hbash-3.2$ cat lab1.script[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1HScript started on Sun Mar 19 22:44:12 2017[34m^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1H[34m^[[m[?1034hbash-3.2$ whoamil[34m^H^[[m[K;pwd[34m^H^H^H[m pwd[34m^H^H^H^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Htommymok[34m^M^M[?12l[?25h[?25l[1;23r[m[1;1H[3M[1;24r[21;1H/Users/tommymok[34m^M^M[m
+bash-3.2$ git config =[34m^H^[[m[K-0[34m^H^[[m[Kl[34m^M^M[m
+core.trustctime=false[34m^M^M[21;1H[?12l[?25h
+
+[?25l[1;23r[m[23;1H
+[1;24r[23;1Hcredential.helper=osxkeychain[34m^M^M[?12l[?25h[?25l[1;23r[m[23;1H
+[1;24r[23;1Hcor
